@@ -35,3 +35,5 @@ const writeFile = fileContent => {
           });
       });
   };
+
+  module.exports = { writeFile, copyFile };
